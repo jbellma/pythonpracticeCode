@@ -11,13 +11,31 @@
   <h1>Hotel Feedback Form</h1>
 
   <form method="get">
+
     <h3>Are you from inside the US? Or Outside the US?</h3>
 
     <label for="inusa">Inside</label>
-    <input id="inusa" type="radio" name="" value="">
+    <input id="inusa" type="radio" name="loc" value="inside">
 
     <label for="outusa">Outside</label>
-    <input id="outusa" type="radio" name="" value="">
+    <input id="outusa" type="radio" name="loc" value="outside">
+
+    <h2>How was your service?</h2>
+
+    <select name="stars">
+      <option value="Great">3</option>
+      <option value="Okay">2</option>
+      <option value="Bad">1</option>
+    </select>
+
+    <input type="submit" name="" value="SUBMIT">
+
+    <h2>Any other feedback?</h2>
+
+    <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+
+    <input type="submit" name="" value="SUBMIT">
+
 
   </form>
 
