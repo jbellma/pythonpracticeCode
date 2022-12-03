@@ -1,0 +1,34 @@
+#title{
+  text-align: center;
+}
+
+td{
+  background-color: black;
+  width: 200px;
+  height:400px
+}
+
+#one{
+  background-color: rgb(251, 97, 7);
+
+}
+
+#two{
+  background-color: rgb(243, 222, 44);
+
+}
+
+#three{
+  background-color: rgb(124, 181, 24);
+
+}
+
+#four{
+  background-color: rgb(92, 128, 1);
+
+}
+
+#five{
+  background-color: rgb(251, 176, 45);
+
+}
