@@ -1,9 +1,14 @@
 #title{
   text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.art{
+  margin: auto;
 }
 
 td{
-  background-color: black;
+  border: 6px solid white;
   width: 200px;
   height:400px
 }
