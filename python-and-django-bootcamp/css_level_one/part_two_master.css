@@ -1,6 +1,7 @@
 
 body{
-  background-color: blue;
+  background: url(https://thumbs.dreamstime.com/b/sunrise-over-beach-cancun-beautiful-mexico-40065727.jpg);
+  background-repeat: repeat;
 }
 
 div{
