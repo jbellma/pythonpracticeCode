@@ -21,7 +21,7 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.insert(0, 'ducati')
 print(motorcycles)
 
-# Removing elements from a list
+# Removing elements from a list with del statement
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
@@ -33,3 +33,11 @@ print(motorcycles)
 
 del motorcycles[1]
 print(motorcycles)
+
+# Removing elements from a list with pop() method
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
