@@ -55,3 +55,10 @@ print(motorcycles)
 first_owned = motorcycles.pop(0)
 print(first_owned)
 print(f"The first motorcycle I owned was a {first_owned.title()}.")
+
+# Removing an item by value with remove() method
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+motorcycles.remove('ducati')
+print(motorcycles)
