@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(7, 168, 168);
+  text-align: center;
+}
+
+#background_one{
+  background-color: rgb(8, 6, 41);
+  margin: 50px;
+  padding: 100px;
+  height: 800px;
+}
+
+h1, h2, h3, p{
+  color: white;
+}
+
+#space{
+  margin: 70px;
+}
+
+#sign{
+  height: 60px;
+  width: 120px;
+  background-color: darkgoldenrod;
+  border-radius: 20px;
+}
