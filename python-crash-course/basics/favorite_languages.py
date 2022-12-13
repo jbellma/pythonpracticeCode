@@ -34,3 +34,8 @@ if 'erin' not in favorite_languages.keys():
 # Using the sorted() function to get a copy of the keys in order
 for name in sorted(favorite_languages.keys()):
     print(f"\n\t{name.title()}, thank you for taking the poll.")
+
+# Looping through all values in a dictionary
+print("The following languages has been mentioned:")
+for language in favorite_languages.values():
+    print(language.title())
