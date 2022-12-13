@@ -21,8 +21,12 @@ for name in favorite_languages.keys():
 # Accessing the value associated with the desired key.
 friends = ['phil', 'sarah']
 for name in favorite_languages.keys():
-    print(f"\tHi {name.title()}")
+    print(f"\tHi {name.title()}.")
 
     if name in friends:
         language = favorite_languages[name].title()
         print(f"\t{name.title()}, I see you love {language}!")
+
+# Using the keys() method to find out if a particular person was polled.
+if 'erin' not in favorite_languages.keys():
+    print("Erin, please take the poll!")
