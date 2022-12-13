@@ -29,4 +29,8 @@ for name in favorite_languages.keys():
 
 # Using the keys() method to find out if a particular person was polled.
 if 'erin' not in favorite_languages.keys():
-    print("Erin, please take the poll!")
+    print("\nErin, please take the poll!")
+
+# Using the sorted() function to get a copy of the keys in order
+for name in sorted(favorite_languages.keys()):
+    print(f"\n\t{name.title()}, thank you for taking the poll.")
