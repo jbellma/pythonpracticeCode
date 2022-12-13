@@ -14,3 +14,8 @@ print(f"Sarah's favorite language is {language}.")
 
 for name, language in favorite_languages.items():
     print(f"\n{name.title()}'s favorite language is {language.title()}.")
+
+# Looping through all the keys in a dictionary
+
+for name in favorite_languages.keys():
+    print(name.title())
