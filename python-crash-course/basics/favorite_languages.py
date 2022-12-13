@@ -36,6 +36,11 @@ for name in sorted(favorite_languages.keys()):
     print(f"\n\t{name.title()}, thank you for taking the poll.")
 
 # Looping through all values in a dictionary
-print("The following languages has been mentioned:")
+print("\nThe following languages has been mentioned:")
 for language in favorite_languages.values():
     print(language.title())
+
+# Looping through all values in a dictionary without repetition
+print("\tThe following languages has been mentioned:")
+for language in set(favorite_languages.values()):
+    print(f"\t{language.title()}")
