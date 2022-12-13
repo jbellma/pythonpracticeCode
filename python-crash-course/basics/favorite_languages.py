@@ -8,4 +8,9 @@ favorite_languages = {
 }
 
 language = favorite_languages['sarah'].title()
-print(f"Sarahs favorite language is {language}.")
+print(f"Sarah's favorite language is {language}.")
+
+# Looping through all key-value pairs in a dictionary
+
+for name, language in favorite_languages.items():
+    print(f"\n{name.title()}'s favorite language is {language.title()}.")
