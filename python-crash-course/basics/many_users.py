@@ -1,4 +1,4 @@
-# A dictinary in a dictionary
+# A dictionary in a dictionary
 
 users = {
     'aeinstein': {
