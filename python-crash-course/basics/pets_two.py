@@ -7,3 +7,7 @@ def describe_pet(animal_type, pet_name):
 
 describe_pet('hamster', 'harry')
 describe_pet('dog', 'willie')
+
+# Keyword arguments
+describe_pet(animal_type='hamster', pet_name= 'harry')
+describe_pet(pet_name= 'harry', animal_type= 'hamster')
