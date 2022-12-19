@@ -1,4 +1,4 @@
-from name_function import get_formatted_name
+from name_function_two import get_formatted_name
 
 def test_first_last_name():
     """Do names like 'Janis Joplin' work?"""
