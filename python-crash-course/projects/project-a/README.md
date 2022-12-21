@@ -1,1 +1,1 @@
-### Alien Invasion: Making a Game with Python.
+### Alien Invasion: Making a Game with Python
