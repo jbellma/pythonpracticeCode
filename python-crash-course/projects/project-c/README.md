@@ -1,1 +1,1 @@
-Building a Learning Log App!
+Web Applications.
