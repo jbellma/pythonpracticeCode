@@ -1,5 +1,5 @@
-# Automating with Python
+### Automating with Python
 
-Python exercises, thoughts and ideas from the Automate The Boring Stuff with Python book.
+Python exercises, thoughts and ideas from the ***Automate The Boring Stuff with Python - No Starch Press*** book.
 
 

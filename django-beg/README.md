@@ -1,3 +1,3 @@
-# Django for beginners
+### Django for beginners
 
 Project-based approach to learning django.
