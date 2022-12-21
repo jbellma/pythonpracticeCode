@@ -1,3 +1,3 @@
-# Python Crash Course
+### Python Crash Course
 
-Python exercises, thoughts and ideas from the Python Crash Course - No Starch Press book.
+Python exercises, thoughts and ideas from the ***Python Crash Course - No Starch Press*** book.
