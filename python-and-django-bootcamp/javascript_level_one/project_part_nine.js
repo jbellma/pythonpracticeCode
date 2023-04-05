@@ -10,10 +10,9 @@ if(firstName[0] === "J"){
     if (age > 20 && age < 30){
       if(height >= 170){
           if (petName[petName.length -1] === "y"){
-            console.log("Welcome Secret Agent.")
+            console.log("Welcome Secret Agent.");
           }
       }
     }
   }
 }
-
