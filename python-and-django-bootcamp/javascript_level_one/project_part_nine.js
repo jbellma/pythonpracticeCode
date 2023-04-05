@@ -5,16 +5,15 @@ var height = prompt("How tall are you?")
 var petName = prompt("Please enter your Pet's Name :");
 alert("Thank you so much for the information.");
 
-var lastChar = petName[petName.length -1];
-
 if(firstName[0] === "J"){
   if (secondName[0] === "J"){
     if (age > 20 && age < 30){
       if(height >= 170){
-          if (lastChar === "y"){
+          if (petName[petName.length -1] === "y"){
             console.log("Welcome Secret Agent.")
           }
       }
     }
   }
 }
+
